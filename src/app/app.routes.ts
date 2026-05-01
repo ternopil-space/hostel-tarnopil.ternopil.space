@@ -3,11 +3,6 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
 	{
 		path: '',
-		loadComponent: () =>
-			import('./pages/landing/landing.component').then((m) => m.LandingComponent),
-	},
-	{
-		path: 'rooms',
 		loadComponent: () => import('./pages/rooms/rooms.component').then((m) => m.RoomsComponent),
 	},
 	{
@@ -19,10 +14,6 @@ export const routes: Routes = [
 		path: 'gallery',
 		loadComponent: () =>
 			import('./pages/gallery/gallery.component').then((m) => m.GalleryComponent),
-	},
-	{
-		path: 'dish/:slug',
-		loadComponent: () => import('./pages/dish/dish.component').then((m) => m.DishComponent),
 	},
 	{
 		path: 'sales',

@@ -86,13 +86,13 @@ export class RoomsComponent {
 		},
 		{
 			label: 'Написати у Viber',
-			href: 'https://example.com/horeca-demo/viber',
+			href: 'https://example.com/hostel-tarnopil-demo/viber',
 			description: 'Демо-чат для швидкого бронювання',
 		},
 		{
 			label: 'Написати у Telegram',
-			href: 'https://example.com/horeca-demo/telegram',
-			description: '@horeca_demo',
+			href: 'https://example.com/hostel-tarnopil-demo/telegram',
+			description: '@hostel_tarnopil_demo',
 		},
 	];
 }
