@@ -52,11 +52,6 @@ export const routes: Routes = [
 			import('./pages/socials/socials.component').then((m) => m.SocialsComponent),
 	},
 	{
-		path: 'favorites',
-		loadComponent: () =>
-			import('./pages/favorites/favorites.component').then((m) => m.FavoritesComponent),
-	},
-	{
 		path: '**',
 		redirectTo: '/',
 	},

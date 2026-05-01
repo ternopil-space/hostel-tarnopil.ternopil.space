@@ -17,21 +17,6 @@
 					</span>
 				}
 			</div>
-
-			<button
-				class="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-0 bg-transparent text-[var(--c-text-muted)] transition-colors duration-200 hover:text-[var(--c-secondary)]"
-				[attr.aria-label]="favoriteLabel()"
-				(click)="toggleFavorite()"
-				type="button"
-			>
-				<span
-					class="material-symbols-outlined"
-					[class.!text-[var(--c-secondary)]]="isFavorite()"
-					aria-hidden="true"
-				>
-					{{ isFavorite() ? 'favorite' : 'favorite_border' }}
-				</span>
-			</button>
 		</div>
 
 		<p class="mt-2 text-[1.2rem] font-semibold leading-none text-[var(--c-secondary)]">
