@@ -81,18 +81,18 @@ export class RoomsComponent {
 	protected readonly contactLinks: ContactLink[] = [
 		{
 			label: 'Зателефонувати',
-			href: 'tel:+380970000000',
-			description: '+38 097 000 00 00',
+			href: 'tel:+38 (068) 118 15 40',
+			description: '+38 068 118 15 40',
 		},
 		{
-			label: 'Написати у Viber',
-			href: 'https://example.com/hostel-tarnopil-demo/viber',
-			description: 'Демо-чат для швидкого бронювання',
+			label: 'Написати у WhatsApp',
+			href: 'https://wa.me/380681181540',
+			description: '+38 068 118 15 40',
 		},
 		{
 			label: 'Написати у Telegram',
-			href: 'https://example.com/hostel-tarnopil-demo/telegram',
-			description: '@hostel_tarnopil_demo',
+			href: '380 68 118 15 40',
+			description: '+38 068 118 15 40',
 		},
 	];
 }
